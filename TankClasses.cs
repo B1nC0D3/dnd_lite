@@ -66,6 +66,7 @@ namespace dnd_lite
 
         public int Shoot()
         {
+            CurBullets -= 1;
             return GetRandomNum();
         }
 
